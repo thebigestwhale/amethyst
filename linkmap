@@ -1,14 +1,2 @@
-/setup/custom-Domain/index.{html} /setup/custom-Domain/
-/setup/hosting/index.{html} /setup/hosting/
-/setup/search/index.{html} /setup/search/
-/setup/updating/index.{html} /setup/updating/
-/README/index.{html} /README/
-/setup/config/index.{html} /setup/config/
-/setup/editing/index.{html} /setup/editing/
-/setup/ignore-notes/index.{html} /setup/ignore-notes/
 /index.html /
-/setup//index.{html} /setup//
-/setup/obsidian/index.{html} /setup/obsidian/
-/setup/preview-changes/index.{html} /setup/preview-changes/
-/setup/setup/index.{html} /setup/setup/
-/setup/troubleshooting/index.{html} /setup/troubleshooting/
+/README/index.{html} /README/
