@@ -228,7 +228,14 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .attr("dx", 0)
     .attr("dy", (d) => nodeRadius(d) + 8 + "px")
     .attr("text-anchor", "middle")
-    .text((d) => content[d.id]?.title || d.id.replace("-", " "))
+    .text((d) => {
+  const decodedName = decodeURIComponent(content[d.id]?.title || d.id);
+  const nameParts = decodedName.split('/');
+  const lastNamePart = nameParts[nameParts.length - 1];
+  console.log('Decoded node name:', lastNamePart);
+  return lastNamePart;
+})
+
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
     .style('font-size', fontSize+'em')

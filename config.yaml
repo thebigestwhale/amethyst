@@ -88,7 +88,7 @@ params:
   links:
     - link_name: Website
       link: https://thebigestwhale.github.io/amethyst/
-    - link_name: Blog
+    - link_name: Graph view
       link: https://thebigestwhale.github.io/amethyst/
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
@@ -129,7 +129,7 @@ params:
   # Configure the date format used on the pages
   # - In git information
   # - In blog posts
-  BookDateFormat: "January 2, 2006"
+  BookDateFormat: "2006-01-02"
 
 
   # (Optional, default true) Enables comments template on pages
@@ -147,3 +147,6 @@ params:
   BookSearch: false
   BookServiceWorker: false
   BookPortableLinks: false
+
+  layouts:
+  dir: "_default"
