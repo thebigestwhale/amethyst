@@ -11,6 +11,7 @@ markup:
       unsafe: true
   tableOfContents:
     startLevel: 1
+    endLevel: 6
 
 # Multi-lingual mode config
 # There are different options to translate files
@@ -94,12 +95,6 @@ params:
   # Start and end levels can be controlled with markup.tableOfContents setting.
   # You can also specify this parameter per page in front matter.
   BookToC: true
-
-markup:
-  tableOfContents:
-    startLevel: 1
-    endLevel: 6
-
 
 
   # (Optional, default none) Set the path to a logo for the book. If the logo is
