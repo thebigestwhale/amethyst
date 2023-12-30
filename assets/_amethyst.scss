@@ -15,6 +15,7 @@ header {
 .book-toc-content,
 .book-page {
     margin-top: $header-height;
+    font-family: var(--font-body);
 }
 
 .book-header {
@@ -96,6 +97,7 @@ pre::-webkit-scrollbar {
     font-weight: bold;
 }
 
+
 .title {
     color: var(--title);
     font-size: 3rem;
@@ -130,3 +132,4 @@ pre::-webkit-scrollbar {
     font-family: var(--font-body);
     color: var(--dark);
 }
+
