@@ -33,6 +33,11 @@
           "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
           "target": "/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
           "text": "초안텐스트"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/content",
+          "text": "content"
         }
       ],
       "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC": [
@@ -132,6 +137,11 @@
           "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
           "target": "/content",
           "text": "content"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/content",
+          "text": "content"
         }
       ],
       "/graph-view": [
@@ -198,6 +208,11 @@
       "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
       "target": "/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
       "text": "초안텐스트"
+    },
+    {
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/content",
+      "text": "content"
     }
   ]
 }
