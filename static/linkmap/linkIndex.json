@@ -1,0 +1,101 @@
+{
+  "index": {
+    "links": {
+      "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        }
+      ],
+      "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "target": "/_index",
+          "text": "_index"
+        }
+      ],
+      "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "target": "/Obsidian-MOC",
+          "text": "Obsidian MOC"
+        }
+      ],
+      "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/graph-view",
+          "text": "graph view"
+        },
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        }
+      ]
+    },
+    "backlinks": {
+      "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        },
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        }
+      ],
+      "/Obsidian-MOC": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "target": "/Obsidian-MOC",
+          "text": "Obsidian MOC"
+        }
+      ],
+      "/_index": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "target": "/_index",
+          "text": "_index"
+        }
+      ],
+      "/graph-view": [
+        {
+          "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/graph-view",
+          "text": "graph view"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+      "target": "/_index",
+      "text": "_index"
+    },
+    {
+      "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "target": "/Obsidian-MOC",
+      "text": "Obsidian MOC"
+    },
+    {
+      "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+      "target": "/graph-view",
+      "text": "graph view"
+    },
+    {
+      "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+      "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+    },
+    {
+      "source": "D/JONGEUN/chuchubeam-world/githubPage/amethyst/amethyst/content/",
+      "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+    }
+  ]
+}

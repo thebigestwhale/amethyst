@@ -1,4 +1,5 @@
 baseURL: https://thebigestwhale.github.io/amethyst/
+languageCode: "kr"
 
 # Book configuration
 disablePathToLower: true
@@ -20,14 +21,14 @@ markup:
 
 # Sidebar menu additional links
 menu:
-  # before:
-  #   - name: "Sample"
-  #     url: "https://google.com"
-  #     weight: 10
-  after:
-    - name: "site theme"
-      url: "https://github.com/64bitpandas/amethyst"
+  before:
+    - name: "Graph view"
+      url: "https://google.com"
       weight: 10
+  # after:
+  #   - name: "site theme"
+  #     url: "https://github.com/64bitpandas/amethyst"
+  #     weight: 10
 
 params:
 
@@ -86,10 +87,10 @@ params:
   
   # Footer links
   links:
-    - link_name: Website
-      link: https://thebigestwhale.github.io/amethyst/
-    - link_name: Graph view
-      link: https://thebigestwhale.github.io/amethyst/
+    # - link_name: Website
+    #   link: https://thebigestwhale.github.io/amethyst/
+    # - link_name: Graph view
+    #   link: https://thebigestwhale.github.io/amethyst/
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -148,5 +149,3 @@ params:
   BookServiceWorker: false
   BookPortableLinks: false
 
-  layouts:
-  dir: "_default"

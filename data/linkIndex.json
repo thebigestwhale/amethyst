@@ -1,0 +1,203 @@
+{
+  "index": {
+    "links": {
+      "/": [
+        {
+          "source": "/",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        }
+      ],
+      "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0": [
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "text": "그래프 테스트"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index",
+          "text": "Obsidian/마크다운/_index"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
+          "text": "초안텐스트"
+        }
+      ],
+      "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC": [
+        {
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "text": "백링크 내놓으라고!!"
+        },
+        {
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/content",
+          "text": "content"
+        }
+      ],
+      "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C": [
+        {
+          "source": "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "target": "/Obsidian-MOC",
+          "text": "Obsidian MOC"
+        }
+      ],
+      "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0": [
+        {
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/graph-view",
+          "text": "graph view"
+        },
+        {
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        }
+      ]
+    },
+    "backlinks": {
+      "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8": [
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "text": "그래프 테스트"
+        }
+      ],
+      "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC": [
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
+        }
+      ],
+      "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0": [
+        {
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "text": "백링크 내놓으라고!!"
+        }
+      ],
+      "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C": [
+        {
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        },
+        {
+          "source": "/",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+        }
+      ],
+      "/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8": [
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
+          "text": "초안텐스트"
+        }
+      ],
+      "/Obsidian-MOC": [
+        {
+          "source": "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "target": "/Obsidian-MOC",
+          "text": "Obsidian MOC"
+        }
+      ],
+      "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index": [
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index",
+          "text": "Obsidian/마크다운/_index"
+        }
+      ],
+      "/content": [
+        {
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/content",
+          "text": "content"
+        }
+      ],
+      "/graph-view": [
+        {
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/graph-view",
+          "text": "graph view"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "text": "백링크 내놓으라고!!"
+    },
+    {
+      "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "target": "/content",
+      "text": "content"
+    },
+    {
+      "source": "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "target": "/Obsidian-MOC",
+      "text": "Obsidian MOC"
+    },
+    {
+      "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+      "target": "/graph-view",
+      "text": "graph view"
+    },
+    {
+      "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+      "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+    },
+    {
+      "source": "/",
+      "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
+    },
+    {
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "text": "마크다운 2번째 파일"
+    },
+    {
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+      "text": "그래프 테스트"
+    },
+    {
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index",
+      "text": "Obsidian/마크다운/_index"
+    },
+    {
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "text": "마크다운 2번째 파일"
+    },
+    {
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
+      "text": "초안텐스트"
+    }
+  ]
+}
