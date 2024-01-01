@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>마크다운 테스트 on</title><link>https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/</link><description>Recent content in 마크다운 테스트 on</description><generator>Hugo -- gohugo.io</generator><language>kr</language><atom:link href="https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/index.xml" rel="self" type="application/rss+xml"/><item><title>Callouts</title><link>https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/Callouts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/Callouts/</guid><description>Callout support # Amethyst supports the same Admonition-callout syntax as Obsidian.
-This includes
-12 Distinct callout types (each with several aliases) Collapsable callouts See documentation on supported types and syntax here.
-Showcase # [!EXAMPLE] Examples
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>마크다운 테스트 on</title><link>https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/</link><description>Recent content in 마크다운 테스트 on</description><generator>Hugo -- gohugo.io</generator><language>kr</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/index.xml" rel="self" type="application/rss+xml"/><item><title>Callouts</title><link>https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/Callouts/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://thebigestwhale.github.io/amethyst/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/Callouts/</guid><description>[!EXAMPLE] Examples
 Aliases: example
 [!note] Notes
 Aliases: note
@@ -10,4 +7,13 @@ Aliases: abstract, summary, tldr
 [!info] Info
 Aliases: info, todo
 [!tip] Hint
-Aliases: tip, hint, important</description></item></channel></rss>
+Aliases: tip, hint, important
+[!success] Success
+Aliases: success, check, done
+[!question] Question
+Aliases: question, help, faq
+[!warning] Warning
+Aliases: warning, caution, attention
+[!failure] Failure
+Aliases: failure, fail, missing
+[!danger] Error</description></item></channel></rss>
