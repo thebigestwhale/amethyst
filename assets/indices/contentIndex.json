@@ -19,8 +19,8 @@
   },
   "/Backlinks-test/": {
     "title": "_index",
-    "content": "",
-    "lastmodified": "2024-01-01T21:28:49.2387588+09:00",
+    "content": "test",
+    "lastmodified": "2024-01-01T21:36:35.2868747+09:00",
     "tags": [
       "Obsidian",
       "Markdown"
@@ -29,7 +29,7 @@
   "/Backlinks-test/backlink-01": {
     "title": "backlink 01",
     "content": "\n",
-    "lastmodified": "2024-01-01T21:28:52.0246283+09:00",
+    "lastmodified": "2024-01-01T21:37:26.9722737+09:00",
     "tags": []
   },
   "/Backlinks-test/backlink-02": {
