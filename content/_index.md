@@ -7,6 +7,7 @@ tags:
 aliases: 
 Title: amethyst 한국버전 설명서
 bookCollapseSection: true
+date: 2024-01-01
 ---
 ## 안녕하세요!
 옵시디언을 입문하고, 퍼블리쉬를 고민하다 우연히 휴고를 통해 만들어볼까 싶어서 만들어봤습니다. 이 버전은 [amethyst](https://github.com/64bitpandas/amethyst)를 제 입맛에 수정한 테마입니다.  

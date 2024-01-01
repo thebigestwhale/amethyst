@@ -7,6 +7,7 @@ tags:
 aliases:
 Title: 마크다운 테스트
 bookCollapseSection: true
+date: 2024-01-01
 ---
 ##  **헤딩(Headings)**
 `#` 기호를 사용하여 헤딩을 만듭니다. `#`의 개수에 따라 헤딩의 크기가 결정됩니다.
