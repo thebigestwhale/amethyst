@@ -25,10 +25,10 @@ menu:
   #   - name: "Graph view"
   #     url: "https://google.com"
   #     weight: 10
-  # after:
-  #   - name: "site theme"
-  #     url: "https://github.com/64bitpandas/amethyst"
-  #     weight: 10
+  after:
+    - name: "site theme"
+      url: "https://github.com/64bitpandas/amethyst"
+      weight: 10
 
 params:
 
@@ -87,10 +87,10 @@ params:
   
   # Footer links
   links:
-    # - link_name: Website
-    #   link: https://thebigestwhale.github.io/amethyst/
-    # - link_name: Graph view
-    #   link: https://thebigestwhale.github.io/amethyst/
+    - link_name: 기존테마
+      link: https://github.com/64bitpandas/amethyst
+    - link_name: 변경된 테마
+      link: https://github.com/thebigestwhale/amethyst
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
