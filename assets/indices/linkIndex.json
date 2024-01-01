@@ -1,18 +1,18 @@
 {
   "index": {
     "links": {
-      "/Backlinks-test/backlink-01": [
+      "/Backlinks-test/backlink-02": [
         {
-          "source": "/Backlinks-test/backlink-01",
-          "target": "/Backlinks-test/_index",
-          "text": "_index"
+          "source": "/Backlinks-test/backlink-02",
+          "target": "/Backlinks-test/backlink-01",
+          "text": "backlink 01"
         }
       ],
       "/Backlinks-test/backlink-03": [
         {
           "source": "/Backlinks-test/backlink-03",
-          "target": "/Backlinks-test/_index",
-          "text": "_index"
+          "target": "/Backlinks-test/backlink-01",
+          "text": "backlink 01"
         }
       ],
       "/Backlinks-test/backlink-03-1": [
@@ -28,26 +28,19 @@
           "target": "/Backlinks-test/backlink-03",
           "text": "backlink 03"
         }
-      ],
-      "/README": [
-        {
-          "source": "/README",
-          "target": "/LICENSE",
-          "text": ""
-        }
       ]
     },
     "backlinks": {
-      "/Backlinks-test/_index": [
+      "/Backlinks-test/backlink-01": [
         {
-          "source": "/Backlinks-test/backlink-01",
-          "target": "/Backlinks-test/_index",
-          "text": "_index"
+          "source": "/Backlinks-test/backlink-02",
+          "target": "/Backlinks-test/backlink-01",
+          "text": "backlink 01"
         },
         {
           "source": "/Backlinks-test/backlink-03",
-          "target": "/Backlinks-test/_index",
-          "text": "_index"
+          "target": "/Backlinks-test/backlink-01",
+          "text": "backlink 01"
         }
       ],
       "/Backlinks-test/backlink-03": [
@@ -61,21 +54,14 @@
           "target": "/Backlinks-test/backlink-03",
           "text": "backlink 03"
         }
-      ],
-      "/LICENSE": [
-        {
-          "source": "/README",
-          "target": "/LICENSE",
-          "text": ""
-        }
       ]
     }
   },
   "links": [
     {
-      "source": "/Backlinks-test/backlink-01",
-      "target": "/Backlinks-test/_index",
-      "text": "_index"
+      "source": "/Backlinks-test/backlink-02",
+      "target": "/Backlinks-test/backlink-01",
+      "text": "backlink 01"
     },
     {
       "source": "/Backlinks-test/backlink-03-1",
@@ -89,13 +75,8 @@
     },
     {
       "source": "/Backlinks-test/backlink-03",
-      "target": "/Backlinks-test/_index",
-      "text": "_index"
-    },
-    {
-      "source": "/README",
-      "target": "/LICENSE",
-      "text": ""
+      "target": "/Backlinks-test/backlink-01",
+      "text": "backlink 01"
     }
   ]
 }
