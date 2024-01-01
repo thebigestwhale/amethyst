@@ -1,564 +1,273 @@
 {
   "index": {
     "links": {
-      "/": [
+      "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0": [
         {
-          "source": "/",
-          "target": "/setup/setup",
-          "text": "Setup your own Amethyst instance"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
         },
         {
-          "source": "/",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "text": "그래프 테스트"
         },
         {
-          "source": "/",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index",
+          "text": "Obsidian/마크다운/_index"
         },
         {
-          "source": "/",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/Obsidian/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
+          "text": "초안텐스트"
         },
         {
-          "source": "/",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/",
-          "target": "/setup/updating",
-          "text": "update"
-        },
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
-        },
-        {
-          "source": "/",
-          "target": "/setup/troubleshooting",
-          "text": "Troubleshooting and FAQ"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "text": "contentㄴㅇㅇㄴㅇㄹㅇ"
         }
       ],
-      "/features/languages": [
+      "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC": [
         {
-          "source": "/features/languages",
-          "target": "/setup/config",
-          "text": "config"
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "text": "백링크 내놓으라고!!"
+        },
+        {
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "text": "contentㄴㅇㅇㄴㅇㄹㅇ"
         }
       ],
-      "/setup/config": [
+      "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C": [
         {
-          "source": "/setup/config",
-          "target": "/features/language",
-          "text": "Chinese, Japanese, and Korean support"
-        },
-        {
-          "source": "/setup/config",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "target": "/Obsidian-MOC",
+          "text": "Obsidian MOC"
         }
       ],
-      "/setup/editing": [
+      "/Obsidian/graph-view": [
         {
-          "source": "/setup/editing",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
+          "source": "/Obsidian/graph-view",
+          "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "text": "그래프 테스트"
         },
         {
-          "source": "/setup/editing",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/Obsidian/graph-view",
+          "target": "/%EA%B0%80%EC%8A%B5%EA%B8%B0",
+          "text": "가습기"
         }
       ],
-      "/setup/hosting": [
+      "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0": [
         {
-          "source": "/setup/hosting",
-          "target": "/setup/custom-Domain",
-          "text": "Learn how to set it up with Amethyst"
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/graph-view",
+          "text": "graph view"
         },
         {
-          "source": "/setup/hosting",
-          "target": "/setup/ignore-notes",
-          "text": "Excluding pages from being published"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
         }
       ],
-      "/setup/obsidian": [
+      "/backlink1": [
         {
-          "source": "/setup/obsidian",
-          "target": "/setup/setup",
-          "text": "setup"
-        },
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
+          "source": "/backlink1",
+          "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "text": "백링크 내놓으라고!!"
         }
       ],
-      "/setup/preview-changes": [
+      "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87": [
         {
-          "source": "/setup/preview-changes",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        }
-      ],
-      "/setup/setup": [
-        {
-          "source": "/setup/setup",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
+          "source": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "target": "/Obsidian/graph-view",
+          "text": "graph view"
         },
         {
-          "source": "/setup/setup",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/setup/troubleshooting": [
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/features/latex",
-          "text": "LaTeX"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/ignore-notes",
-          "text": "excluding pages from being published"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/obsidian",
-          "text": "Obsidian"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "the 'how to edit' guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "the hosting guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/config",
-          "text": "customization guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "local editing"
+          "source": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
         }
       ]
     },
     "backlinks": {
-      "/features/language": [
+      "/%EA%B0%80%EC%8A%B5%EA%B8%B0": [
         {
-          "source": "/setup/config",
-          "target": "/features/language",
-          "text": "Chinese, Japanese, and Korean support"
+          "source": "/Obsidian/graph-view",
+          "target": "/%EA%B0%80%EC%8A%B5%EA%B8%B0",
+          "text": "가습기"
         }
       ],
-      "/features/latex": [
+      "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8": [
         {
-          "source": "/setup/troubleshooting",
-          "target": "/features/latex",
-          "text": "LaTeX"
+          "source": "/Obsidian/graph-view",
+          "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "text": "그래프 테스트"
+        },
+        {
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+          "text": "그래프 테스트"
         }
       ],
-      "/setup/config": [
+      "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC": [
         {
-          "source": "/",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/features/languages",
-          "target": "/setup/config",
-          "text": "config"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/config",
-          "text": "customization guide"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
         }
       ],
-      "/setup/custom-Domain": [
+      "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0": [
         {
-          "source": "/setup/hosting",
-          "target": "/setup/custom-Domain",
-          "text": "Learn how to set it up with Amethyst"
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "text": "백링크 내놓으라고!!"
+        },
+        {
+          "source": "/backlink1",
+          "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "text": "백링크 내놓으라고!!"
         }
       ],
-      "/setup/editing": [
+      "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C": [
         {
-          "source": "/",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/setup/setup",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "the 'how to edit' guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "local editing"
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
         }
       ],
-      "/setup/hosting": [
+      "/Obsidian-MOC": [
         {
-          "source": "/",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/preview-changes",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "the hosting guide"
+          "source": "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+          "target": "/Obsidian-MOC",
+          "text": "Obsidian MOC"
         }
       ],
-      "/setup/ignore-notes": [
+      "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC": [
         {
-          "source": "/setup/hosting",
-          "target": "/setup/ignore-notes",
-          "text": "Excluding pages from being published"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/ignore-notes",
-          "text": "excluding pages from being published"
+          "source": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "text": "마크다운 2번째 파일"
         }
       ],
-      "/setup/obsidian": [
+      "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index": [
         {
-          "source": "/",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/obsidian",
-          "text": "Obsidian"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index",
+          "text": "Obsidian/마크다운/_index"
         }
       ],
-      "/setup/preview-changes": [
+      "/Obsidian/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8": [
         {
-          "source": "/",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/Obsidian/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
+          "text": "초안텐스트"
         }
       ],
-      "/setup/setup": [
+      "/Obsidian/graph-view": [
         {
-          "source": "/",
-          "target": "/setup/setup",
-          "text": "Setup your own Amethyst instance"
-        },
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/setup",
-          "text": "setup"
+          "source": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "target": "/Obsidian/graph-view",
+          "text": "graph view"
         }
       ],
-      "/setup/troubleshooting": [
+      "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87": [
         {
-          "source": "/",
-          "target": "/setup/troubleshooting",
-          "text": "Troubleshooting and FAQ"
+          "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+          "target": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "text": "contentㄴㅇㅇㄴㅇㄹㅇ"
         },
         {
-          "source": "/setup/config",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/setup",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+          "target": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+          "text": "contentㄴㅇㅇㄴㅇㄹㅇ"
         }
       ],
-      "/setup/updating": [
+      "/graph-view": [
         {
-          "source": "/",
-          "target": "/setup/updating",
-          "text": "update"
-        }
-      ],
-      "/tags/setup": [
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
+          "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "target": "/graph-view",
+          "text": "graph view"
         }
       ]
     }
   },
   "links": [
     {
-      "source": "/",
-      "target": "/setup/setup",
-      "text": "Setup your own Amethyst instance"
+      "source": "/Obsidian/graph-view",
+      "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+      "text": "그래프 테스트"
     },
     {
-      "source": "/",
-      "target": "/setup/editing",
-      "text": "Editing Notes in Amethyst"
+      "source": "/Obsidian/graph-view",
+      "target": "/%EA%B0%80%EC%8A%B5%EA%B8%B0",
+      "text": "가습기"
     },
     {
-      "source": "/",
-      "target": "/setup/obsidian",
-      "text": "How to setup your Obsidian Vault to work with Amethyst"
+      "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "text": "백링크 내놓으라고!!"
     },
     {
-      "source": "/",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
+      "source": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "target": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+      "text": "contentㄴㅇㅇㄴㅇㄹㅇ"
     },
     {
-      "source": "/",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
+      "source": "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "target": "/Obsidian-MOC",
+      "text": "Obsidian MOC"
     },
     {
-      "source": "/",
-      "target": "/setup/config",
-      "text": "Customizing Amethyst"
+      "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+      "target": "/graph-view",
+      "text": "graph view"
     },
     {
-      "source": "/",
-      "target": "/setup/updating",
-      "text": "update"
+      "source": "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+      "target": "/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C",
+      "text": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까"
     },
     {
-      "source": "/",
-      "target": "/tags/setup",
-      "text": "setup-related notes"
+      "source": "/backlink1",
+      "target": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "text": "백링크 내놓으라고!!"
     },
     {
-      "source": "/",
-      "target": "/setup/troubleshooting",
-      "text": "Troubleshooting and FAQ"
+      "source": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+      "target": "/Obsidian/graph-view",
+      "text": "graph view"
     },
     {
-      "source": "/features/languages",
-      "target": "/setup/config",
-      "text": "config"
+      "source": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+      "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "text": "마크다운 2번째 파일"
     },
     {
-      "source": "/setup/config",
-      "target": "/features/language",
-      "text": "Chinese, Japanese, and Korean support"
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC",
+      "text": "마크다운 2번째 파일"
     },
     {
-      "source": "/setup/config",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8",
+      "text": "그래프 테스트"
     },
     {
-      "source": "/setup/editing",
-      "target": "/setup/obsidian",
-      "text": "How to setup your Obsidian Vault to work with Amethyst"
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/_index",
+      "text": "Obsidian/마크다운/_index"
     },
     {
-      "source": "/setup/editing",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/Obsidian/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8",
+      "text": "초안텐스트"
     },
     {
-      "source": "/setup/editing",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
-    },
-    {
-      "source": "/setup/editing",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/custom-Domain",
-      "text": "Learn how to set it up with Amethyst"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/ignore-notes",
-      "text": "Excluding pages from being published"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/config",
-      "text": "Customizing Amethyst"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/setup/obsidian",
-      "target": "/setup/setup",
-      "text": "setup"
-    },
-    {
-      "source": "/setup/obsidian",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
-    },
-    {
-      "source": "/setup/preview-changes",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
-    },
-    {
-      "source": "/setup/setup",
-      "target": "/setup/editing",
-      "text": "Editing Notes in Amethyst"
-    },
-    {
-      "source": "/setup/setup",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/features/latex",
-      "text": "LaTeX"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "hosting"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/ignore-notes",
-      "text": "excluding pages from being published"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "hosting"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/obsidian",
-      "text": "Obsidian"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/editing",
-      "text": "the 'how to edit' guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "the hosting guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/config",
-      "text": "customization guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/editing",
-      "text": "local editing"
+      "source": "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0",
+      "target": "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87",
+      "text": "contentㄴㅇㅇㄴㅇㄹㅇ"
     }
   ]
 }

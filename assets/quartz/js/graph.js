@@ -235,7 +235,6 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   console.log('Decoded node name:', lastNamePart);
   return lastNamePart;
 })
-
     .style('opacity', (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
     .style('font-size', fontSize+'em')

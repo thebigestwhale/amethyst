@@ -1,4 +1,4 @@
-baseURL: https://thebigestwhale.github.io/amethyst/
+baseURL: https://thebigestwhale.github.io/amethyst
 languageCode: "kr"
 
 # Book configuration
@@ -21,10 +21,10 @@ markup:
 
 # Sidebar menu additional links
 menu:
-  before:
-    - name: "Graph view"
-      url: "https://google.com"
-      weight: 10
+  # before:
+  #   - name: "Graph view"
+  #     url: "https://google.com"
+  #     weight: 10
   # after:
   #   - name: "site theme"
   #     url: "https://github.com/64bitpandas/amethyst"
