@@ -5,7 +5,7 @@ tags:
   - Obsidian
   - Markdown
 aliases:
-Title: 마크다운 테스트
+title: 마크다운 테스트
 bookCollapseSection: true
 date: 2024-01-01
 ---
