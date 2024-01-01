@@ -1,120 +1,71 @@
 {
   "/": {
     "title": "_index",
-    "content": "**마크다운 테스트용 글**\n\n**제목**\n\n# 마크다운 테스트용 글\n\n**헤더**\n\n## 헤더 2\n\n### 헤더 3\n\n#### 헤더 4\n\n##### 헤더 5\n\n###### 헤더 6\n\n**수평선**\n\n---\n\n**목록**\n\n- 순서가 있는 목록\n    - 순서가 있는 하위 목록\n    - 순서가 있는 하위 하위 목록\n- 순서가 없는 목록\n    - 순서가 없는 하위 목록\n    - 순서가 없는 하위 하위 목록\n\n**줄바꿈**\n\n\u003e 이 문장은 줄바꿈이 적용되었습니다.\n\n**강조**\n\n**굵게**\n\n_이 문장은 굵게 표시되었습니다._\n\n**기울임**\n\n_이 문장은 기울임 표시되었습니다._\n\n**취소선**\n\n~~이 문장은 취소선이 적용되었습니다.~~\n\n**링크**\n\n구글: [https://www.google.com](https://www.google.com/)\n\n**이미지**\n\n구글: [https://www.google.com](https://www.google.com/)\n\n**코드**\n\nPython\n\n```\ndef hello_world():\n    print(\"Hello, world!\")\n\nhello_world()\n```\n\n**테이블**\n\n|열 1|열 2|열 3|\n|---|---|---|\n|값 1|값 2|값 3|\n|값 4|값 5|값 6|\n\n**수식**\n\n```\n$$\ne^i\\pi + 1 = 0\n$$\n```\n\n이 글은 마크다운의 기본적인 문법을 테스트하기 위한 글입니다. 각 문법에 대한 설명은 위에서 확인하실 수 있습니다.\n\n**마크다운 테스트 결과**\n\n제목은 # 기호로 표시됩니다.\n\n헤더는 ##, ###, ####, #####, ###### 기호로 표시됩니다.\n\n수평선은 --- 기호로 표시됩니다.\n\n목록은 *, -, + 기호로 표시됩니다.\n\n줄바꿈은 Enter 키를 두 번 누르면 적용됩니다.\n\n강조는 **, * 기호로 표시됩니다.\n\n기울임은 _, * 기호로 표시됩니다.\n\n취소선은 ~~ 기호로 표시됩니다.\n\n링크는 링크 텍스트: 링크 주소 형식으로 표시됩니다.\n\n이미지는 이미지 캡션: 이미지 주소 형식으로 표시됩니다.\n\n코드는 `언어 명령어` 형식으로 표시됩니다.\n\n테이블은 | 열 1 | 열 2 | 열 3 | 형식으로 표시됩니다.\n\n수식은 $$ 수식 $$ 형식으로 표시됩니다.\n\n\u003e [!NOTE]콜아웃 테스트\n\u003e \n\u003e 어떻게 표현됩니까?",
-    "lastmodified": "2023-12-31T14:43:39.4102206+09:00",
+    "content": "## 안녕하세요!\n옵시디언을 입문하고, 퍼블리쉬를 고민하다 우연히 휴고를 통해 만들어볼까 싶어서 만들어봤습니다. 이 버전은 [amethyst](https://github.com/64bitpandas/amethyst)를 제 입맛에 수정한 테마입니다.  \n\n\n### 간단한 사용법\n1. properties에 `title`을 생성하고 제목을 지어주세요!\n2. 폴더를 생성하고 나면 꼭 `_index.md`를 생성해주세요. 이 파일이 휴고에서 실질적으로 폴더의 역할을 합니다. \n3. 생성된 `_index.md`의 properties에 `bookCollapseSection: ture`로 하면 디렉토리처럼 접었다 폈다 할 수 있는 기능을 생성할 수 있습니다.\n4. `content`가 실질적으로 볼트와 같은 역할을 하고 있습니다. \n5. 옵시디언의 설정에 들어가 파일의 경로를 '절대경로'로 지정해줘야 옵시디언이 서로의 연결을 확인할 수 있습니다.\n6. 옵시디언의 경로는 hugo-obsidian을 실행하여 자동으로 생성됩니다. 그러나 생성되는 경로와 테마가 참고하는 경로가 다르기 때문에,  프로젝트 레포지토리와 같은 디렉토리에 생성된 `static`에 있는 `linkmap`을 `amethyst/static`폴더에 꼭 덮어쓰기 해주세요.\n\n그 외 잡다한 설명은 [amethyst](https://github.com/64bitpandas/amethyst)에서 확인해주세요!",
+    "lastmodified": "2024-01-01T20:47:43.498029+09:00",
     "tags": [
       "Obsidian",
       "Markdown"
     ]
   },
-  "/%EB%AC%B4%EC%A0%9C-%ED%8C%8C%EC%9D%BC": {
-    "title": "무제 파일",
-    "content": "```\n    {{$linkIndex := getJSON \"/assets/indices/linkIndex.json\"}}\n\n    {{$inbound := index $linkIndex.index.backlinks $curPage}}\n\n    {{$contentTable := getJSON \"/assets/indices/contentIndex.json\"}}\n```\n\n이거 링크를 변경하면 되겠네\n\n",
-    "lastmodified": "2024-01-01T13:01:30.6337414+09:00",
-    "tags": []
-  },
-  "/%EB%B0%B1%EB%A7%81%ED%81%AC-%EB%82%B4%EB%86%93%EC%9C%BC%EB%9D%BC%EA%B3%A0": {
-    "title": "백링크 내놓으라고!!",
-    "content": "\n[[마크다운 2번째 파일]]\n[[그래프 테스트]]\n[[Obsidian/마크다운/_index]]\n[마크다운 2번째 파일](Obsidian/마크다운/마크다운 2번째 파일)\n[초안텐스트](Obsidian/초안텐스트)\n[contentㄴㅇㅇㄴㅇㄹㅇ](contentㄴㅇㅇㄴㅇㄹㅇ.md)\n[contentㄴㅇㅇㄴㅇㄹㅇ](contentㄴㅇㅇㄴㅇㄹㅇ.md)",
-    "lastmodified": "2024-01-01T12:20:32.9899705+09:00",
-    "tags": []
-  },
-  "/Git/": {
-    "title": "Git",
-    "content": "---\n\n### 연결문서\n- \n\n### 메모\n#### 깃입ㄴ다\n##### 깃이라고요\n###### 옷깃만스쳐도 인연\n\n### 참조\n- ",
-    "lastmodified": "2023-12-30T18:41:09.5639552+09:00",
-    "tags": [
-      "가습기"
-    ]
-  },
-  "/Git/%EA%B0%80%EC%8A%B5%EA%B8%B0": {
-    "title": "가습기 정리",
-    "content": "---\n\n### 연결문서\n- \n\n### 메모\n\u003e가습기\n\u003e1. 가열식 가습기: 조지루시 가습기 (최최최최저가 20만원, 일본 가열식 가습기, 가습기를 끓여 수분을 공급하여 전기세가 많이 나오지만 끓이기 때문에 세균 번식의 걱정이 없다)\n\u003e3. 초음파식 가습기: 윤남텍 가습기, 최저가 65000원, 용량이 적지만 세척이 용이해 조지루시가 아니면 윤남텍을 선호하는 편, 디자인이 너무 별로고 용량이 적지만 중으로 해놓으면 6시간 연속으로 사용할수있다고 함 윤남텍이 아이면 샤오미 미지아 많이들 쓰는듯\n\u003e4. 기화식 가습기: 이거도 비싼고 많던데 이건 식세기로 세척 많이 해서 식세기가 없으면 쓰지 않는 걸 추천한다. 가이아모가 유명하다.\n\n\n#### 가습기 추천\n다양한 종류의 가습기를 소개하고, 각각의 특징과 가격을 비교해 보겠습니다.\n\n1. **가열식 가습기**: 조지루시 가습기는 일본에서 제조된 가열식 가습기로, 가습기를 끓여 수분을 공급합니다. 이로 인해 전기세가 많이 나오지만, 끓이기 때문에 세균 번식의 걱정이 없습니다. 최저가는 약 20만원입니다.\n\n2. **초음파식 가습기**: 윤남텍 가습기는 용량이 적지만 세척이 용이하여 많은 사람들이 선호하는 모델입니다. 디자인이 간단하며, 용량이 적지만 중으로 해놓으면 6시간 연속으로 사용할 수 있다고 합니다. 최저가는 약 65000원입니다. 윤남텍 외에도 샤오미 미지아 모델도 많이 사용됩니다.\n\n3. **기화식 가습기**: 기화식 가습기는 가격이 비싸고 모델도 다양합니다. 이 가습기는 식세기로 세척해야 하므로, 식세기가 없는 경우 사용하지 않는 것을 추천합니다. 가이아모 모델이 유명합니다.\n\n각 가습기의 특징과 가격을 고려하여, 자신의 필요에 가장 잘 맞는 가습기를 선택해 보세요.\n\n### 참조\n- ",
-    "lastmodified": "2023-12-30T18:35:45.3228759+09:00",
-    "tags": [
-      "가습기"
-    ]
-  },
-  "/Obsidian/": {
+  "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/": {
     "title": "_index",
-    "content": "\n### 주제: 태그작성\n\n\n### 연결문서\n- 연결문서1\n- 연결문서2\n\n\n### 메모\n옵시디언 관련한 글을 작성하는 부분\n\n### 참고\n\n",
-    "lastmodified": "2023-12-31T11:20:28.3777887+09:00",
+    "content": "##  **헤딩(Headings)**\n`#` 기호를 사용하여 헤딩을 만듭니다. `#`의 개수에 따라 헤딩의 크기가 결정됩니다.\n\n```markdown\n# H1\n## H2\n### H3\n#### H4\n##### H5\n###### H6\n```\n\n## 강조(Emphasis)\n`*` 또는 `_` 기호를 사용하여 텍스트를 강조합니다.\n\n```markdown\n*이탤릭체* 또는 _이탤릭체_\n**볼드체** 또는 __볼드체__\n**_볼드체와 이탤릭체_** 또는 *__볼드체와 이탤릭체__*\n```\n\n## 목록(Lists)\n`-` 또는 `*` 또는 `+` 기호를 사용하여 비순차적 목록을 만들고, 숫자와 점을 사용하여 순차적 목록을 만듭니다.\n\n```markdown\n- 항목 1\n- 항목 2\n- 항목 3\n\n1. 항목 1\n2. 항목 2\n3. 항목 3\n```\n\n## 링크(Links)\n`텍스트` 형식을 사용하여 링크를 만듭니다.\n\n```markdown\nGoogle\n```\n\n## 이미지(Images)\n`!대체 텍스트` 형식을 사용하여 이미지를 삽입합니다.\n\n```markdown\n![대체 텍스트](이미지주소)\n```\n\n## 코드(Code)\n`를 사용하여 인라인 코드를 만들고, ```를 사용하여 코드 블록을 만듭니다.\n\n```markdown\n`인라인 코드`\n\n\\`\\`\\`\n코드 블록\n\\`\\`\\`\n```\n\n### 표(Tables)\n`-`와 `|`를 사용하여 표를 만듭니다.\n\n```markdown\n| 헤더 1 | 헤더 2 |\n| ------- | ------- |\n| 셀 1   | 셀 2   |\n```\n\n",
+    "lastmodified": "2024-01-01T20:26:30.8498376+09:00",
     "tags": [
       "Obsidian",
       "Markdown"
     ]
   },
-  "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/": {
+  "/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/Callouts": {
+    "title": "Callouts",
+    "content": "\n## Callout support\n\nAmethyst supports the same Admonition-callout syntax as Obsidian.\n\nThis includes\n- 12 Distinct callout types (each with several aliases)\n- Collapsable callouts\n\nSee [documentation on supported types and syntax here](https://help.obsidian.md/How+to/Use+callouts#Types).\n\n## Showcase\n\n\u003e [!EXAMPLE] Examples\n\u003e\n\u003e Aliases: example\n\n\u003e [!note] Notes\n\u003e\n\u003e Aliases: note\n\n\u003e [!abstract] Summaries \n\u003e\n\u003e Aliases: abstract, summary, tldr\n\n\u003e [!info] Info \n\u003e\n\u003e Aliases: info, todo\n\n\u003e [!tip] Hint \n\u003e\n\u003e Aliases: tip, hint, important\n\n\u003e [!success] Success \n\u003e\n\u003e Aliases: success, check, done\n\n\u003e [!question] Question \n\u003e\n\u003e Aliases: question, help, faq\n\n\u003e [!warning] Warning \n\u003e\n\u003e Aliases: warning, caution, attention\n\n\u003e [!failure] Failure \n\u003e\n\u003e Aliases: failure, fail, missing\n\n\u003e [!danger] Error\n\u003e\n\u003e Aliases: danger, error\n\n\u003e [!bug] Bug\n\u003e\n\u003e Aliases: bug\n\n\u003e [!quote] Quote\n\u003e\n\u003e Aliases: quote, cite",
+    "lastmodified": "2024-01-01T20:28:07.6894955+09:00",
+    "tags": []
+  },
+  "/Backlinks-test/": {
     "title": "_index",
-    "content": "작성일: 2021-10-31 18_07\r\n\r\n---\r\n### 주제: 태그작성\r\n---\r\n\r\n### 연결문서\r\n- 연결문서1\r\n- 연결문서2\r\n\r\n### 생각\r\n\u003e생각\r\n\r\n### 출처\r\n\r\n### 제목\r\n\u003e내용\r\n\r\n---\r\n\r\n# heading 1\r\n## heading 2\r\n### heading 3\r\n#### heading 4\r\n##### heading 5\r\n###### heading 6\r\n\r\n#마크다운 #옵시디언 \r\n\r\n별하나: *이탤릭*\r\n\r\n별둘: **두껍게** **\r\n\r\n물결두번: ~~취소선~~ ~~\r\n\r\n등호 두개: ==강조하기==  ==\r\n\r\n리스트는 짝대기 -\r\n- 첫 번째\r\n- 두 번째\r\n- 세 번째\r\n\r\n숫자 리스트는 그냥 숫자쓰면 바로 됨\r\n1. 첫 번째\r\n2. 두 번째\r\n3. 세 번째\r\n\r\n인용할때는 부등호\u003e표시\r\n\u003e너 자신을 알라\r\n\u003e박스가 씌워지는데 사용하는 테마에 따라 변화한다.\r\n\r\n\t\"가나다라\"\r\n\r\n---\r\n유니코드 테스트!!!\r\n1. 한글 안녕하세요\r\n2. English Hello World\r\n3. 日本語　テスト　ひらがな カタカナ\r\n\r\n\r\n",
-    "lastmodified": "2023-12-30T18:56:17.312051+09:00",
+    "content": "",
+    "lastmodified": "2024-01-01T20:28:40.0314126+09:00",
     "tags": [
       "Obsidian",
       "Markdown"
     ]
   },
-  "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%85%8C%EC%8A%A4%ED%8A%B8": {
-    "title": "그래프 테스트",
-    "content": "\n\n호",
-    "lastmodified": "2023-12-31T12:49:13.1657936+09:00",
+  "/Backlinks-test/backlink-01": {
+    "title": "backlink 01",
+    "content": "\n[_index](Backlinks%20test/_index.md)",
+    "lastmodified": "2024-01-01T20:39:10.8864207+09:00",
     "tags": []
   },
-  "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4": {
-    "title": "마크다운",
+  "/Backlinks-test/backlink-02": {
+    "title": "backlink 02",
     "content": "",
-    "lastmodified": "2023-12-31T13:55:57.5525171+09:00",
+    "lastmodified": "2024-01-01T20:38:28.7226626+09:00",
     "tags": []
   },
-  "/Obsidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-2%EB%B2%88%EC%A7%B8-%ED%8C%8C%EC%9D%BC": {
-    "title": "마크다운 2번째 파일",
-    "content": "# 야야야 내나이가 어때서\n## 사랑에 나이가 잇나요\n\n\n[[백링크 내놓으라고!!]]\n[마크다운 2번째 파일](Obsidian/마크다운/마크다운%202번째%20파일.md)\n[가습기](Git/가습기.md)\n[그래프 테스트](Obsidian/마크다운/그래프%20테스트.md)",
-    "lastmodified": "2024-01-01T12:21:02.5148452+09:00",
+  "/Backlinks-test/backlink-03": {
+    "title": "backlink 03",
+    "content": "[_index](Backlinks%20test/_index.md)",
+    "lastmodified": "2024-01-01T20:39:40.2283476+09:00",
     "tags": []
   },
-  "/Obsidian/%EC%98%B5%EC%8B%9C%EB%94%94%EC%96%B8-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%9C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EC%9D%84%EA%B9%8C": {
-    "title": "옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까",
-    "content": "---\n\n### 연결문서\n- \n\n### 본문\n#### 옵시디언\n옵시디언은 Markdown 기반의 메모 앱으로, 문서 간 연결, 검색, 태그 등을 통해 정보를 체계적으로 관리할 수 있는 것이 특징입니다. 옵시디언은 개인 위키처럼 사용할 수 있으며, 블로그, 연구, 학습, 창의적인 작업 등 다양한 용도로 활용할 수 있습니다.\n\n옵시디언을 퍼블리시하는 방법은 크게 세 가지가 있습니다.\n\n* Obsidian Publish\n* Github Pages\n* Wordpress\n\n#### Obsidian Publish\n옵시디언 퍼블리쉬는 옵시디언에서 제공하는 공식 퍼블리싱 서비스입니다. 월 10달러, 혹은 8달러에 이용할 수 있으며, 옵시디언에서 작성한 노트를 웹사이트로 손쉽게 퍼블리시할 수 있습니다.\n\n옵시디언 퍼블리쉬의 장점\n* 쉽게 사용할 수 있습니다. 옵시디언에서 제공하는 공식 서비스이기 때문에 별도의 설정 없이 바로 사용할 수 있습니다.\n* 옵시디언의 기능을 그대로 사용할 수 있습니다. 옵시디언의 모든 기능을 그대로 사용할 수 있기 때문에 옵시디언에 익숙한 사용자가 사용하기에 적합합니다.\n\n옵시디언 퍼블리쉬의 단점\n* SEO가 좋지 않습니다. 검색 엔진에서 노트가 잘 노출되지 않습니다.\n\n#### Github Pages\nGithub Pages는 Github에서 제공하는 무료 호스팅 서비스입니다. Github 계정이 있으면 누구나 사용할 수 있습니다. Github Pages를 이용하면 서버 비용이 들지 않으며, 도메인만 구입하면 됩니다. SEO도 잘 되며, 애드센스도 사용 가능할 것으로 예상됩니다. 하지만 프론트 개발 지식이 있어야만 Jekyll 테마를 수정하거나 새로운 기능을 추가할 수 있습니다.\n\nGithub Pages의 장점\n* 무료로 사용할 수 있습니다. 서버 비용이 들지 않습니다.\n* SEO가 좋습니다. 검색 엔진에서 노트가 잘 노출됩니다.\n* 애드센스를 사용할 수 있습니다. 수익을 올릴 수 있습니다.\n\nGithub Pages의 단점\n* 프론트 개발 지식이 필요합니다. Jekyll 테마를 수정하거나 새로운 기능을 추가하려면 개발 지식이 필요합니다.\n\n#### Wordpress\nWordpress는 가장 인기 있는 블로그 플랫폼입니다. 서버 비용과 도메인 비용이 들지만, 다양한 플러그인과 테마를 사용할 수 있으며, SEO도 잘 됩니다. 애드센스도 사용할 수 있습니다. 옵시디언의 워드프레스 플러그인을 통해 워드프레스에 글을 작성할 수 있습니다.\n\nWordpress의 장점\n* 가장 인기 있는 블로그 플랫폼입니다. 다양한 플러그인과 테마를 사용할 수 있으며, SEO도 잘 됩니다.\n* 애드센스를 사용할 수 있습니다. 수익을 올릴 수 있습니다.\n\nWordpress의 단점\n* 서버 비용이 필요합니다. 도메인 비용도 필요합니다.\n\n#### 티스토리\n티스토리는 한국에서 많은 사람들에게 사랑받는 블로그입니다. 무료로 사용할 수 있으며 다양한 테마를 사용할 수 있습니다. 애드센스도 사용할 수 있습니다. 티스토리 플러그인을 설치하여 쉽게 티스토리에 옵시디언 글을 올릴 수 있습니다.\n\n#### SEO\nSEO는 검색 엔진에서 노트가 잘 노출되도록 하는 것입니다. SEO를 잘 하려면 다음과 같은 사항을 고려해야 합니다.\n\n* 제목과 메타 설명을 잘 작성합니다.\n* 노트에 적절한 키워드를 사용합니다.\n* 노트의 구조를 잘 정리합니다.\n* 노트를 자주 업데이트합니다.\n\n옵시디언 퍼블리쉬를 사용하면 SEO를 고려한 퍼블리싱이 어렵습니다. 따라서 Github Pages, Wordpress, 또는 Tistory를 사용한다면 SEO를 고려하여 노트를 작성하고, SEO 플러그인이나 테마를 사용하는 것이 좋습니다.\n\n#### 애드센스\n애드센스는 Google에서 제공하는 광고 플랫폼입니다. 애드센스를 사용하면 노트에 광고를 게재하여 수익을 올릴 수 있습니다. 애드센스를 사용하려면 다음과 같은 사항을 고려해야 합니다.\n\n* 노트의 내용이 광고주에게 적합한지 확인합니다.\n* 노트의 방문자가 충분한지 확인합니다.\n* 노트의 품질이 우수한지 확인합니다.\n\n옵시디언 퍼블리쉬를 사용하면 애드센스 활용을 할 수 있는 지 잘 모르겠습니다. 또한 SEO가 아쉬운 부분들이 많았습니다. 하지만 다음의 블로그들은 상대적으로 괜찮습니다. Github Pages, Wordpress, 또는 Tistory에서 애드센스를 사용한다면 애드센스 정책을 준수하고, 애드센스 계정을 등록해야 합니다.\n\n저는 개인적으로 Wordpress를 추천합니다. Wordpress는 가장 메이저한 블로그 플랫폼이기 때문에 다양한 플러그인과 테마를 사용할 수 있으며, SEO도 잘 됩니다. 또한, 애드센스도 사용할 수 있기 때문에 수익을 올릴 수 있습니다. 티스토리도 무료로 이용할 수 있다는 장점이 있지만, 최근에는 사람들이 워드프레스로 많이 이동하고 있습니다. 따라서 티스토리를 선택할 때는 이러한 점을 고려해야 합니다.\n\n|   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|\n|**방법**|**가격**|**서버 비용**|**도메인 비용**|**SEO**|**애드센스**|**프론트 개발 지식 필요 여부**|\n|옵시디언\u003cbr\u003e\u003cbr\u003e퍼블리쉬|월 8달러\u003cbr\u003e\u003cbr\u003e월 10달러|X|X|좋지 않음|?|있으면 좋음|\n|Github Pages|도메인 비용|X|필요|좋음|가능|매우 필요|\n|Wordpress|서버 비용\u003cbr\u003e\u003cbr\u003e도메인 비용|필요|필요|좋음|가능|있으면 좋음|\n|Tistory|무료|X|X|좋음|가능|있으면 좋음|\n\n#### 총평\n옵시디언을 퍼블리시하는 방법은 자신의 상황에 따라 선택하는 것이 좋습니다. 개인적인 용도로 사용하려면 옵시디언 퍼블리쉬를 이용합니다. SEO를 고려하고 애드센스도 사용하려면 Github Pages, Wordpress, 더해서 Tistory를 이용합니다.\n\nGithub Pages와 Wordpress는 모두 SEO가 좋고 애드센스를 사용할 수 있습니다. 따라서 두 가지 중에서 선택할 때는 다음과 같은 사항을 고려하면 됩니다. 프론트 개발 지식이 있다면 Github Pages를 선택하는 것이 좋습니다. Github Pages는 다양한 테마를 제공하지만, 원하는 테마를 수정하거나 새로운 기능을 추가하려면 프론트 개발 지식이 필요합니다.\n\n프론트 개발 지식이 없다면 Wordpress를 선택하는 것이 좋습니다. Wordpress는 다양한 플러그인을 제공하기 때문에 원하는 기능을 쉽게 추가할 수 있습니다.\n\n결론적으로, 개인적인 용도로 사용하려면 옵시디언 퍼블리쉬를 이용하고, SEO를 고려하고 애드센스도 사용하려면 Github Pages, Wordpress, 또는 Tistory를 이용합니다. 이 중에서 어떤 방법을 선택할지는 자신의 상황에 따라 결정하는 것이 좋습니다. 전 최종으로 깃허브를 통해 해보고 싶습니다.\n\n### 참조\n[마크다운 2번째 파일](/content/Obisidian/마크다운 2번째 파일)\n)\n",
-    "lastmodified": "2023-12-31T12:20:56.5236888+09:00",
-    "tags": [
-      "Obsidian",
-      "Publish",
-      "Blog",
-      "Wordpress",
-      "Tistory",
-      "Github"
-    ]
-  },
-  "/Obsidian/%EC%B4%88%EC%95%88%ED%85%90%EC%8A%A4%ED%8A%B8": {
-    "title": "Post",
-    "content": "\nHave a look at my blog posts!",
-    "lastmodified": "2023-12-31T11:18:19.3534286+09:00",
+  "/Backlinks-test/backlink-03-1": {
+    "title": "backlink 03-1",
+    "content": "[backlink 03](Backlinks%20test/backlink%2003.md)",
+    "lastmodified": "2024-01-01T20:40:17.6653764+09:00",
     "tags": []
   },
-  "/Python/%EA%B0%80%EC%8A%B5%EA%B8%B0-%EC%A2%85%EB%A5%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0": {
-    "title": "가습기 종류 알아보기",
-    "content": "---\n\n### 연결문서\n- \n\n### 메모\n\u003e가습기\n\u003e1. 가열식 가습기: 조지루시 가습기 (최최최최저가 20만원, 일본 가열식 가습기, 가습기를 끓여 수분을 공급하여 전기세가 많이 나오지만 끓이기 때문에 세균 번식의 걱정이 없다)\n\u003e3. 초음파식 가습기: 윤남텍 가습기, 최저가 65000원, 용량이 적지만 세척이 용이해 조지루시가 아니면 윤남텍을 선호하는 편, 디자인이 너무 별로고 용량이 적지만 중으로 해놓으면 6시간 연속으로 사용할수있다고 함 윤남텍이 아이면 샤오미 미지아 많이들 쓰는듯\n\u003e4. 기화식 가습기: 이거도 비싼고 많던데 이건 식세기로 세척 많이 해서 식세기가 없으면 쓰지 않는 걸 추천한다. 가이아모가 유명하다.\n\n\n#### 가습기 추천\n다양한 종류의 가습기를 소개하고, 각각의 특징과 가격을 비교해 보겠습니다.\n\n1. **가열식 가습기**: 조지루시 가습기는 일본에서 제조된 가열식 가습기로, 가습기를 끓여 수분을 공급합니다. 이로 인해 전기세가 많이 나오지만, 끓이기 때문에 세균 번식의 걱정이 없습니다. 최저가는 약 20만원입니다.\n\n2. **초음파식 가습기**: 윤남텍 가습기는 용량이 적지만 세척이 용이하여 많은 사람들이 선호하는 모델입니다. 디자인이 간단하며, 용량이 적지만 중으로 해놓으면 6시간 연속으로 사용할 수 있다고 합니다. 최저가는 약 65000원입니다. 윤남텍 외에도 샤오미 미지아 모델도 많이 사용됩니다.\n\n3. **기화식 가습기**: 기화식 가습기는 가격이 비싸고 모델도 다양합니다. 이 가습기는 식세기로 세척해야 하므로, 식세기가 없는 경우 사용하지 않는 것을 추천합니다. 가이아모 모델이 유명합니다.\n\n각 가습기의 특징과 가격을 고려하여, 자신의 필요에 가장 잘 맞는 가습기를 선택해 보세요.\n\n### 참조\n- [[graph view]]\n- [[옵시디언 퍼블리시, 어떤 방법이 나에게 맞을까]]",
-    "lastmodified": "2023-12-31T11:52:43.7250284+09:00",
-    "tags": [
-      "가습기"
-    ]
-  },
-  "/backlink1": {
-    "title": "backlink1",
-    "content": "[백링크 내놓으라고!!](백링크 내놓으라고!!)\n\n\n[[백링크 내놓으라고!!]]",
-    "lastmodified": "2023-12-31T13:46:55.3921464+09:00",
+  "/Backlinks-test/backlink-03-2": {
+    "title": "backlink 03-2",
+    "content": "[backlink 03](Backlinks%20test/backlink%2003.md)",
+    "lastmodified": "2024-01-01T20:40:38.7141756+09:00",
     "tags": []
   },
-  "/content%E3%84%B4%E3%85%87%E3%85%87%E3%84%B4%E3%85%87%E3%84%B9%E3%85%87": {
-    "title": "contentㄴㅇㅇㄴㅇㄹㅇ",
-    "content": "[graph view](Obsidian/graph%20view.md)[마크다운 2번째 파일](Obsidian/마크다운/마크다운%202번째%20파일.md)",
-    "lastmodified": "2023-12-31T14:02:22.6895006+09:00",
-    "tags": []
-  },
-  "/content/Obisidian/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4": {
-    "title": "마크다운",
-    "content": "",
-    "lastmodified": "2023-12-31T12:20:57.2167389+09:00",
+  "/README": {
+    "title": "README",
+    "content": "## 안녕하세요!\n옵시디언을 입문하고, 퍼블리쉬를 고민하다 우연히 휴고를 통해 만들어볼까 싶어서 만들어봤습니다. 이 버전은 [amethyst](https://github.com/64bitpandas/amethyst)를 제 입맛에 수정한 테마입니다.  \n\n## 수정한 부분\n1. 그래프가 한국어로 잘 보이도록 수정했습니다.\n2. CSS와 간단한 디자인들이 조금 수정 되었습니다.\n3. hugo-obsidian에서 생성된 json파일들이 자동으로 참고되도록 수정했습니다. (linkmap은 손수 static폴더로 붙여넣기 해주셔야 합니다)\n\n\n저는 개발을 업으로 하는게 아니라 취미로 배우고 있습니다! 많이 부족해도 웃으며 넘어가주세요.\n\n아래는 원래 기본 테마인 Amethyst의 설명서입니다. Obsidian 이용자를 위해 hugo 옵시디언 테마를 만들어주신 64bitpandas님께 감사의 인사를 드립니다.\n\n# Amethyst Hugo Theme\n\n[![Hugo](https://img.shields.io/badge/hugo-0.96-blue.svg)](https://gohugo.io)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n\n\n\n![amethyst screenshot](https://github.com/64bitpandas/amethyst/blob/e8429e790e25dc6f3318826905f4e4a031d04363/images/screenshot.png)\n\n## Why Amethyst?\nI write most of my [notes](https://notes.bencuan.me) in [Obsidian](https://obsidian.md/). When trying to find a suitable open-source alternative for Obsidian Publish, I couldn't find exactly what I was looking for: a simple, customizable theme with sidebar navigation that supported Obsidian features (like backlinks or LaTeX) in such a way that didn't require me to reformat my notes.\n\nAmethyst is an attempt to deliver this by combining the navigational features of [hugo-book](https://github.com/alex-shpak/hugo-book) with the Obsidian integrations of [quartz](https://github.com/jackyzha0/quartz) to provide a hassle-free place to store and host personal notes or documentation.\n\n## Features\n\nAmethyst preserves most of the features of quartz and hugo-book, including:\n - Navigation sidebars on left and right of content\n - Obsidian-style callouts \n - Interactive graph view\n - MermaidJS charts\n - User-togglable dark mode\n - Search bar\n - Multi-language support\n - Mobile support\n - Obsidian-style back/forward links and page previews\n\nSome new features that were added on top:\n - Custom formatting of tabs, sections, and expands specifically for Q\u0026A-style interaction\n - Easy customization of theme colors and fonts\n - LaTeX enabled out of the box with no additional config\n - Support for both absolute and relative links, Obsidian-style\n\n## Documentation\nIf you just want to use Amethyst for your own notes hosting, go to [amethyst.bencuan.me](https://amethyst.bencuan.me) for a demo and documentation on how to use it.\n\nKeep reading if you want to help develop Amethyst, or make changes to the code base for your own needs.\n\n## Requirements\n\n- **Go 1.16 or higher**: [installation instructions](https://golang.org/doc/install)\n- **Hugo 0.93 or higher:** [installation instructions](https://gohugo.io/getting-started/installing/) \n  - If installing on Ubuntu/Debian-based systems, this is a higher version than is available in apt at the time of writing. Install the extended version from the [releases page](https://github.com/gohugoio/hugo/releases) instead.\n- **Hugo-obsidian:** Run `go install github.com/jackyzha0/hugo-obsidian@latest`.\n  - If you're getting a `command not found` error, [ensure that your PATH is configured properly so that binaries in the GOPATH can be executed](https://stackoverflow.com/questions/21001387/how-do-i-set-the-gopath-environment-variable-on-ubuntu-what-file-must-i-edit).\n\n## Live Server\n\nStart the live server using `make serve`. Content will be served to `localhost:1313` by default.\n\nThe server will need to be restarted to preview changes to navigation (internal links and sidebar menu).\n\n## Configuration\n\n### Site Configuration\n\nMost configuration can be done by creating a `config.yaml` file in the root directory and editing the parameters. You can start by copying the example [here](https://github.com/64bitpandas/amethyst/blob/main/config.yaml).\n\nGraph-specific configuration can be added to `data/graphConfig.yaml`. (Example [here](https://github.com/64bitpandas/amethyst/blob/main/data/graphConfig.yaml))\n\n\n### Multi-Language Support\n\nTheme supports Hugo's [multilingual mode](https://gohugo.io/content-management/multilingual/), just follow configuration guide there. You can also tweak search indexing configuration per language in `i18n` folder.\n\n### Page Configuration\n\nYou can specify additional params in the front matter of individual pages:\n\n```toml\n# Set type to 'docs' if you want to render page outside of configured section or if you render section other than 'docs'\ntype = 'docs'\n\n# Set page weight to re-arrange items in file-tree menu (if BookMenuBundle not set)\nweight = 10\n\n# (Optional) Set to 'true' to mark page as flat section in file-tree menu (if BookMenuBundle not set)\nbookFlatSection = false\n\n# (Optional) Set to hide nested sections or pages at that level. Works only with file-tree menu mode\nbookCollapseSection = true\n\n# (Optional) Set true to hide page or section from side menu (if BookMenuBundle not set)\nbookHidden = false\n\n# (Optional) Set 'false' to hide ToC from page\nbookToC = true\n\n# (Optional) If you have enabled BookComments for the site, you can disable it for specific pages.\nbookComments = true\n\n# (Optional) Set to 'false' to exclude page from search index.\nbookSearchExclude = true\n\n# (Optional) Set explicit href attribute for this page in a menu (if BookMenuBundle not set)\nbookHref = ''\n```\n\n### Partials\n\nThere are layout partials available for you to easily override components of the theme in `layouts/partials/`.\n\nIn addition to this, there are several empty partials you can override to easily add/inject code.\n\n| Empty Partial                                      | Placement                                   |\n| -------------------------------------------------- | ------------------------------------------- |\n| `layouts/partials/docs/inject/head.html`           | Before closing `\u003chead\u003e` tag                 |\n| `layouts/partials/docs/inject/body.html`           | Before closing `\u003cbody\u003e` tag                 |\n| `layouts/partials/docs/inject/footer.html`         | After page footer content                   |\n| `layouts/partials/docs/inject/menu-before.html`    | At the beginning of `\u003cnav\u003e` menu block      |\n| `layouts/partials/docs/inject/menu-after.html`     | At the end of `\u003cnav\u003e` menu block            |\n| `layouts/partials/docs/inject/content-before.html` | Before page content                         |\n| `layouts/partials/docs/inject/content-after.html`  | After page content                          |\n| `layouts/partials/docs/inject/toc-before.html`     | At the beginning of table of contents block |\n| `layouts/partials/docs/inject/toc-after.html`      | At the end of table of contents block       |\n\n### Extra Customisation\n\n| File                     | Description                                                                           |\n| ------------------------ | ------------------------------------------------------------------------------------- |\n| `static/favicon.png`     | Override default favicon                                                              |\n| `assets/_custom.scss`    | Customise or override scss styles                                                     |\n| `assets/_variables.scss` | Override default SCSS variables                                                       |\n| `assets/_fonts.scss`     | Replace default font with custom fonts (e.g. local files or remote like google fonts) |\n| `assets/_colors.scss`    | Change the default color schemes |\n| `assets/mermaid.json`    | Replace Mermaid initialization config                                                 |\n\n### Plugins\n\nThere are a few features implemented as plugable `scss` styles. Usually these are features that don't make it to the core but can still be useful.\n\n| Plugin                            | Description                                                 |\n| --------------------------------- | ----------------------------------------------------------- |\n| `assets/plugins/_numbered.scss`   | Makes headings in markdown numbered, e.g. `1.1`, `1.2`      |\n| `assets/plugins/_scrollbars.scss` | Overrides scrollbar styles to look similar across platforms |\n\nTo enable plugins, add `@import \"plugins/{name}\";` to `assets/_custom.scss` in your website root.\n\n### Hugo Internal Templates\n\nThere are a few hugo templates inserted in `\u003chead\u003e`\n\n- [Google Analytics](https://gohugo.io/templates/internal/#google-analytics)\n- [Open Graph](https://gohugo.io/templates/internal/#open-graph)\n\nTo disable Open Graph inclusion you can create your own empty file `\\layouts\\_internal\\opengraph.html`.\nIn fact almost empty not quite empty because an empty file looks like absent for HUGO. For example:\n```\n\u003c!-- --\u003e\n```\n\n## Versioning\n\nThis theme follows a simple incremental versioning. e.g. `v1`, `v2` and so on. There might be breaking changes between versions.\n\nIf you want lower maintenance, use one of the released versions. If you want to live on the bleeding edge of changes, you can use the `main` branch and update your website when needed.\n\n## Contributing\n\nContributions are welcome! Please make an issue or pull request if there are any changes you'd like to see.\n\n## Credits\n\nA large portion of Amethyst's code base can be derived from the following two projects. Original attribution goes to the creators of these projects; I just put them together, squashed all the bugs, and customized the styles to fit my needs for Amethyst.\n - [Hugo Book](https://github.com/alex-shpak/hugo-book)\n - [Quartz](https://github.com/jackyzha0/quartz)\n",
+    "lastmodified": "2024-01-01T20:37:20.8171442+09:00",
     "tags": []
   }
 }

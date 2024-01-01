@@ -1,1 +1,0 @@
-[graph view](Obsidian/graph%20view.md)[마크다운 2번째 파일](Obsidian/마크다운/마크다운%202번째%20파일.md)
