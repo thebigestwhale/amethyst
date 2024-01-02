@@ -10,7 +10,6 @@ tags:
   - Go
   - Blog
 aliases: 
-MOC: "[[09. MOC/Develop MOC]]"
 title: 백링크 테스트
 bookCollapseSection: ture
 ---
