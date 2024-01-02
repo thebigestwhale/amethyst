@@ -1,7 +1,7 @@
 ---
 created: 
 updated: 
-Date: 2023-12-31
+date: 2023-12-31
 tags:
   - Hugo
   - Obsidian

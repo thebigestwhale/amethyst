@@ -5,7 +5,7 @@ tags:
   - Obsidian
   - Markdown
 aliases: 
-Title: amethyst 한국버전 설명서
+title: amethyst 한국버전 설명서
 bookCollapseSection: true
 date: 2024-01-01
 ---
